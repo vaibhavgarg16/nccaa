@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityes.PsiMandatory3Activity">
+
+    <include layout="@layout/appbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imgPsiId"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/imgId"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/tick" />
+
+        <TextView
+            android:id="@+id/txtPsiMandatoryId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgPsiId"
+            android:layout_marginTop="10dp"
+            android:text="PSI Mandatory Data Form"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt2Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPsiMandatoryId"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:text="You have successfully completed the PSI Mandatory Data Form!" />
+
+        <Button
+            android:id="@+id/btnContinue2Id"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/capsul_blue_btn"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</FrameLayout>

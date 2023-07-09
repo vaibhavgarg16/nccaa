@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activityes.PersonalInformationActivity2">
+
+    <ImageView
+        android:id="@+id/imgLeftArrowId"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+
+    <LinearLayout
+        android:layout_below="@id/imgLeftArrowId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"
+            android:background="@color/blue_200" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:background="@color/blue_50" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:background="@color/blue_50" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLeftArrowId"
+        android:layout_marginTop="20dp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtPersonalInfoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Personal Information"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_layout_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgId"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/etFirstNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:text="Mark"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_layout_middlename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgId"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/etMiddleNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Middle Name"
+                android:text="Benjamin"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_layout_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgId"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/etLastNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:text="Doe"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:smsp_floatingLabelColor="@color/test"
+            app:smsp_hint="12/12/1997"
+            android:layout_marginTop="20dp"
+            app:smsp_hintColor="@color/black"
+            app:smsp_itemListHintBackgroundColor="#808080"
+            app:smsp_multilineError="false"
+            app:smsp_selectedItemListColor="@color/test" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_layout_cellphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgId"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/etCellPhoneId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cell Phone"
+                android:text="(555) 555-5555"
+                android:inputType="number"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:smsp_floatingLabelColor="@color/test"
+            app:smsp_hint="Male"
+            android:layout_marginTop="20dp"
+            app:smsp_hintColor="@color/black"
+            app:smsp_itemListHintBackgroundColor="#808080"
+            app:smsp_multilineError="false"
+            app:smsp_selectedItemListColor="@color/test" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnContinueId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/capsul_blue_btn"
+        android:text="Continue"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

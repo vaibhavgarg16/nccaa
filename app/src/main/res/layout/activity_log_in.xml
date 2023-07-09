@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="10dp"
+        tools:context=".activityes.LogInActivity">
+
+        <ImageView
+            android:id="@+id/face"
+            android:src="@drawable/face"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:padding="10dp"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/imgId"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/icn_logo" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgId"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/etMailId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue"
+                android:hint="Email"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_input_layout_email"
+            android:layout_marginTop="15dp"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/etPasswordId"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:backgroundTint="@color/blue"
+                android:hint="Password"
+                android:singleLine="true"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/txtForgPassId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_input_layout_password"
+            android:layout_marginTop="10dp"
+            android:text="Forgot Password?"
+            android:paddingVertical="10dp"
+            android:textColor="@color/test"
+            android:textSize="15sp" />
+
+        <Button android:textAllCaps="false"
+            android:id="@+id/btnLoginId"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtForgPassId"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/capsul_blue_btn"
+            android:text="Login"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_below="@+id/btnLoginId"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conditions of Use"
+                android:textColor="@color/test"
+                android:paddingVertical="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/privacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="Privacy"
+                android:textColor="@color/test"
+                android:paddingVertical="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="Notice"
+                android:textColor="@color/test"
+                android:paddingVertical="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

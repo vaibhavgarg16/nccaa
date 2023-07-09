@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">nccaa</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+</resources>

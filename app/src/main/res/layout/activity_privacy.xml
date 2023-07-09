@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PrivacyActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgId"
+            android:orientation="vertical">
+
+            <include layout="@layout/appbar3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtPrivacyId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Privacy"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtLatestDateId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Last Updated: June 1, 2016"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtH2Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This Privacy Policy discloses the privacy practices
+for the NCCAA website located at
+(the “Site”). In this Privacy Policy, the terms “we,”
+“us,” or “our” refer to NCCAA, and the terms “you”
+and “your” refer to you as a visitor to the Site.This
+Privacy Policy governs our collection of information
+from you through your use of this Site. It does not
+apply to any information you may provide to us, or
+that we may collect, offline and/or through other
+means (for example, information gathered via mail
+or telephone). By visiting and using this Site, you
+agree that your use of this Site, and any disputes
+over our online privacy practices, will be governed by
+this Privacy Policy and or Terms of Use." />
+
+            <TextView
+                android:id="@+id/txtH1Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TYPES OF INFORMATION NCCAA COLLECTS"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtH3Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The types of information collected on our Site are
+described below. This information may be collected
+directly by us, or it may be collected by our third
+party website hosting provider, or another service
+provider, on our behalf. No personally identifiable
+information (such as your name, address, email
+address, or telephone number) is automatically
+collected via our Site; personally identifiable
+information about Site users is collected only when
+it is knowingly and voluntarily submitted by Site
+visitors." />
+
+            <TextView
+                android:id="@+id/txtH4Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="INFORMATION YOU VOLUNTARILY PROVIDE"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtH5Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="We may collect and store information, personal or
+otherwise, that you voluntarily supply to us while on
+our Site. Some examples of this type of information
+include information that you submit electronically
+when you contact us with questions or request email
+updates or RSS feeds, and information you post on
+public posting areas on our Site (such as the
+comment feature for news articles and updates). We
+may also ask for information (including a credit or
+debit card number) from those who pay for an
+NCCAA membership, pay NCCAA Certification fees,
+or conduct other transactions on our Site.This
+category of information also includes information
+that you electronically submit when you submit an
+NCCAA membership application, or an NCCAA
+Certification application, via our Site. All information
+voluntarily supplied by you via our Site as part of the
+NCCAA membership application process and/or the
+NCCAA Certification process will be collected and
+stored by us in accordance with the terms of this
+Privacy Policy." />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

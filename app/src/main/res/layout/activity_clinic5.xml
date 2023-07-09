@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityes.ClinicActivity5">
+
+    <include layout="@layout/appbar3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start New Case/Patient"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/date"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:hint="Date"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".8"
+                android:layout_height="wrap_content"
+                android:text="Start time"
+                android:layout_gravity="bottom"
+                android:textSize="16dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/capsul_lightblue_btn"
+                android:paddingHorizontal="20dp"
+                android:text="09:40"
+                android:textSize="25dp" />
+
+            <ToggleButton
+                android:textOn="@string/picker_pm"
+                android:textOff="@string/picker_am"
+                android:layout_gravity="center"
+                android:background="@drawable/capsul_lightblue_btn"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="35dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/grey_700"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".8"
+                android:layout_height="wrap_content"
+                android:text="End time"
+                android:layout_gravity="bottom"
+                android:textSize="16dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/capsul_lightblue_btn"
+                android:paddingHorizontal="20dp"
+                android:text="11:00"
+                android:textSize="25dp" />
+
+            <ToggleButton
+                android:textOn="@string/picker_pm"
+                android:textOff="@string/picker_am"
+                android:layout_gravity="center"
+                android:background="@drawable/capsul_lightblue_btn"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="35dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/grey_700"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:text="ASA (Yes/No)"
+                android:textSize="16dp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_700" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:singleLine="true"
+                android:focusable="false"
+                android:hint="Category" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSaveId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/capsul_blue_btn2"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/btnDeleteId1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/capsul_lightred_btn2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/delet" />
+
+            <TextView
+                android:id="@+id/delete1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Delete Case"
+                android:textColor="@color/red"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

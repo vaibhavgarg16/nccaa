@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activityes.CertificateActivity">
+
+
+    <include layout="@layout/appbar3"/>
+
+    <!--<androidx.cardview.widget.CardView
+        android:id="@+id/cardViewId"
+        android:layout_below="@+id/imgId"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="6dp"
+        android:elevation="6dp"
+        app:cardBackgroundColor="@color/lightorange"
+        app:contentPadding="15dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgCertificateId"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_certificate"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <Button android:textAllCaps="false"
+                android:id="@+id/btnDownCertificateId"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/capsul_blue_btn"
+                android:text="Download Certificate"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>-->
+
+    <ImageView
+        android:src="@drawable/certificate"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>

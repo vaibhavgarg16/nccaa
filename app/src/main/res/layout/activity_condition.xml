@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activityes.ConditionActivity">
+
+        <include layout="@layout/appbar3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgId"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtConditionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Condition of Use"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtLatestDateId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Last Updated: June 1, 2016"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtH1Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Welcome to the NCCAA website located at
+ (the “Site”). In these Terms of Use,
+the terms “we,” “us,” or “our” refer to NCCAA, and the
+terms “you” and “your” refer to you as a visitor to the
+Site.These Terms of Use constitute a binding legal
+contract between you and us and set forth the terms
+that govern your access to and use of the Site. When
+using the Site, you may be subject to other posted
+guidelines, rules or agreements applicable to certain
+features or areas of the Site, or to certain application
+processes that may be initiated via our site (such as
+membership and certification applications). All such
+guidelines, rules and agreements are part of these
+Terms of Use. Accessing the Site in any manner,
+even through automated means, constitutes your
+use of the Site and your agreement to be bound by
+these Terms of Use.We reserve the right to modify
+these Terms of Use in the future as we deem
+necessary. If we do modify these Terms of Use, we
+will post the updated Terms of Use on this Site and
+change the “Last Updated” date above to reflect the
+date of the changes. By continuing to use the Site
+after we post any such changes, you accept the
+Terms of Use as modified" />
+
+
+            <TextView
+                android:id="@+id/txtH2Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Privacy"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtH3Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="We respect the privacy of the users of our Site.
+Please take a moment to review our Privacy Policy" />
+
+
+            <TextView
+                android:id="@+id/txtH4Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="RIGHTS AND RESTRICTIONS RELATING TO SITE
+CONTENT"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtH5Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="License Grant. We may provide via the Site
+information, data, text, images and other materials
+created by us or our licensors or uploaded to the Site
+by our members, other users and/or third party
+partners (the “Content”). The Content available
+through this Site is our property or the property of
+our members, other users, third party partners
+and/or licensors, and is protected by state, national
+and international copyright, trademark and other
+intellectual property laws. Unless otherwise
+specified or authorized by us, the Site is intended for
+your personal, noncommercial use only. You may not
+modify, copy, reproduce, republish, upload, post,
+transmit or distribute in any way any Content from
+the Site without our authorization. If you download
+material from the Site for your personal,
+non-commercial use, you must keep intact all
+copyright and other proprietary notices. You may not
+otherwise reproduce or distribute any of the Content
+of the Site without our prior authorization. Of course,
+you’re free to encourage others to access the
+information themselves on our Site and to tell them
+how to find it." />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

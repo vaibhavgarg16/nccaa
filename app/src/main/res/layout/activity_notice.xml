@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activityes.NoticeActivity">
+
+        <include layout="@layout/appbar3"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgId"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtNoticeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Notice"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtLatestDateId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Last Updated: June 1, 2016"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtH1Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="MODIFYING YOUR MEMBER PROFILE AND
+INFORMATION"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtH2Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="If you are an NCCAA member, you can make
+changes to your account information by logging in to
+the Restricted Access Areas of our Site and clicking
+on “Update Your Details/Change Password.” When
+you update your account or profile information, we
+may keep a copy of the prior version for our
+records.If at any point you decide that you would no
+longer like to receive information from us, please use
+the contact information set forth below in the
+“Contact Us” section of this policy to contact us to
+request that we remove your information from our
+database." />
+
+            <TextView
+                android:id="@+id/txtH3Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CHILDREN’S PRIVACY"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtH4Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This Site is not directed to children under the age of
+13 and we do not knowingly collect personally
+identifiable information from children under the age
+of 13. If we become aware that we have
+inadvertently received personally identifiable
+information from a user under the age of 13, we will
+delete such information from our records. Because
+we do not collect any personally identifiable
+information from children under the age of 13, we
+also do not knowingly distribute any such
+information to third parties. We do not knowingly
+allow children under the age of 13 to publicly post or
+otherwise distribute personally identifiable contact
+information." />
+
+            <TextView
+                android:id="@+id/txtH5Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CHANGES TO THIS PRIVACY POLICY"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtH6Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="If we need to change this Privacy Policy in the future,
+we will post the modified Privacy Policy on the Site
+and update the “Last Updated” date of the policy to
+reflect the date of the changes. By continuing to use
+the Site after we post any such changes, you accept
+the Privacy Policy as modified." />
+
+            <TextView
+                android:id="@+id/txtH7Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CONTACT US"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtH8Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="If you have any questions about this policy or our
+privacy practices, please click on the “Contact
+NCCAA” link on our website and complete the online
+form to submit your question or inquiry." />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

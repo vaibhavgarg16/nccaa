@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nccaa">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icn_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icn_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nccaa">
+        <activity android:name=".activityes.BlanckActivity"></activity>
+        <activity android:name=".activityes.PersonalInformationActivity2" />
+        <activity android:name=".activityes.ForgotPasswordNumberActivity2" />
+        <activity android:name=".activityes.NewPasswordActivity2" />
+        <activity android:name=".activityes.OtpActivity3" />
+        <activity android:name=".activityes.OtpActivity1" />
+        <activity android:name=".activityes.OtpActivity2" />
+        <activity android:name=".activityes.ForgotPasswordNumberActivity" />
+        <activity android:name=".activityes.ForgotPasswordActivity2" />
+        <activity android:name=".activityes.FaceRecogActivity1" />
+        <activity android:name=".activityes.ClinicActivity6" />
+        <activity android:name=".activityes.ClinicActivity5" />
+        <activity android:name=".activityes.ClinicActivity4" />
+        <activity android:name=".activityes.ClinicActivity3" />
+        <activity android:name=".activityes.ClinicActivity2" />
+        <activity android:name=".activityes.ClinicActivity1" />
+        <activity android:name=".activityes.ClinicalActivity4" />
+        <activity android:name=".activityes.ClinicalActivity3" />
+        <activity android:name=".activityes.ClinicalActivity2" />
+        <activity android:name=".activityes.PsiMandatory3Activity" />
+        <activity android:name=".activityes.FaceRecogActivity2" />
+        <activity android:name=".activityes.ImportantDatesActivity" />
+        <activity android:name=".activityes.HelloActivity" />
+        <activity android:name=".activityes.Phase2Activity" />
+        <activity android:name=".activityes.SupportActivity" />
+        <activity android:name=".activityes.AdminActivity" />
+        <activity android:name=".activityes.ClinicalActivity" />
+        <activity android:name=".activityes.CertificateActivity" />
+        <activity android:name=".activityes.CdqInfoActivity" />
+        <activity android:name=".activityes.CmeInfoActivity" />
+        <activity android:name=".activityes.CaaInfoActivity" />
+        <activity android:name=".activityes.AddressActivity" />
+        <activity android:name=".activityes.PersonalInformationActivity" />
+        <activity android:name=".activityes.ConditionActivity" />
+        <activity android:name=".PrivacyActivity" />
+        <activity android:name=".activityes.NoticeActivity" />
+        <activity android:name=".activityes.PsiMandatory2Activity" />
+        <activity android:name=".activityes.PsiMandatoryActivity" />
+        <activity android:name=".activityes.PasswordResetActivity" />
+        <activity android:name=".activityes.NewPasswordActivity" />
+        <activity android:name=".activityes.CheckEmailActivity" />
+        <activity android:name=".activityes.ForgotPasswordActivity" />
+        <activity android:name=".activityes.FaceRecogActivity" />
+        <activity android:name=".activityes.OtpActivity" />
+        <activity android:name=".activityes.LogInActivity" />
+        <activity android:name=".activityes.SplashActivity2" />
+        <activity android:name=".activityes.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

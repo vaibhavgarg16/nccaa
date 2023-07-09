@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activityes.Phase2Activity">
+
+    <include layout="@layout/appbar3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgId"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/txtPhaseId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Phase 2"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtWaysId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Buttons or links in light gray are not available in
+Phase 1 of the NCCAA mobile app. Please use the regular website
+ to view announcements, register for
+exams, make payment, upload CMEs, read the blog,
+and view history."
+            android:textColor="@color/grey"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

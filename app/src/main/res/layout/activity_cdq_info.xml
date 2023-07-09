@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activityes.CdqInfoActivity">
+
+
+    <include layout="@layout/appbar3"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewId"
+        android:layout_below="@+id/imgId"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="6dp"
+        android:elevation="6dp"
+        app:cardBackgroundColor="@color/lightorange"
+        app:contentPadding="15dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtCdqInfoId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CDQ Information"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+            <TextView
+                android:id="@+id/txt2Id"
+                android:text="The NCCAA mobile app does not allow to
+upload documents or to make payment. Please
+login to the website to submit your CMEs. The
+website is NOT optimized for mobile browser
+viewing. For a better experience, please use
+your laptop or desktop to view the web version.
+Thank You!"
+                android:textColor="@color/lightred"
+
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt3Id"
+                android:text="Starting June 2, 2020 (cycle 2020-2022,
+2021-2023, and all future cycles) the new
+standard is 50 credit hours."
+                android:textColor="@color/lightred"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button android:textAllCaps="false"
+                android:id="@+id/btnCdqId"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/capsul_blue_btn"
+                android:text="Go to CDQ"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityes.ClinicActivity2">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <include layout="@layout/appbar3" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:id="@+id/linearId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/imgId"
+          android:orientation="vertical"
+          android:paddingHorizontal="20dp"
+          android:paddingVertical="10dp">
+
+        <TextView
+            android:id="@+id/txtClinicalId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Clinicial Competencies"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/capsul_blue_border_btn2">
+
+          <LinearLayout
+              android:layout_gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/2,000"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+              </LinearLayout>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:textSize="12dp"
+                  android:textColor="@color/blue_900"
+                  android:text="Total Hours of Clinical\nAnesthesia"
+                  android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:background="@color/grey_200"
+                android:layout_gravity="center"
+                android:layout_width="2dp"
+                android:layout_height="75dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/600"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+              </LinearLayout>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:text="Total Anesthesia Cases"
+                  android:textSize="12dp"
+                  android:textColor="@color/blue_900"
+                  android:textStyle="bold" />
+            </LinearLayout>
+          </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:text="Clinicial Competencies"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <TextView
+              android:text="1/21/2021"
+              android:textColor="@color/black"
+              android:textSize="18dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:layout_weight="2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+          <TextView
+              android:text="Giving anesthesia to people with high blood\npressure"
+              android:layout_width="0dp"
+              android:layout_weight="1.8"
+              android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="10dp"
+            android:background="@color/grey_400" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <TextView
+              android:text="1/21/2021"
+              android:textColor="@color/black"
+              android:textSize="18dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:layout_weight="2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Giving anesthesia to people with high blood\npressure"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="@color/grey_400"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <TextView
+              android:text="1/21/2021"
+              android:textColor="@color/black"
+              android:textSize="18dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:layout_weight="2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Giving anesthesia to people with high blood\npressure"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="@color/grey_400"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <TextView
+              android:text="1/21/2021"
+              android:textColor="@color/black"
+              android:textSize="18dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:layout_weight="2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Giving anesthesia to people with high blood\npressure"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="@color/grey_400"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <TextView
+              android:text="1/21/2021"
+              android:textColor="@color/black"
+              android:textSize="18dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:layout_weight="2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Giving anesthesia to people with high blood\npressure"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="@color/grey_400"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <TextView
+              android:text="1/21/2021"
+              android:textColor="@color/black"
+              android:textSize="18dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:layout_weight="2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Giving anesthesia to people with high blood\npressure"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="@color/grey_400"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <TextView
+              android:text="1/21/2021"
+              android:textColor="@color/black"
+              android:textSize="18dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:layout_weight="2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Giving anesthesia to people with high blood\npressure"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="@color/grey_400"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <TextView
+              android:text="1/21/2021"
+              android:textColor="@color/black"
+              android:textSize="18dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:layout_weight="2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Giving anesthesia to people with high blood\npressure"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="@color/grey_400"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_height="1dp"/>
+
+      </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+  </LinearLayout>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/floating"
+      android:layout_gravity="bottom|right"
+      android:src="@drawable/ic_baseline_add_24"
+      android:backgroundTint="@color/facebookcolor"
+      android:layout_marginBottom="30dp"
+      android:layout_marginRight="25dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+
+</FrameLayout>
